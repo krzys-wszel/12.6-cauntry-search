@@ -24,6 +24,7 @@ $(function () {
             $(countriesList).append(
                 "<li>" +
                 "<h1>" + item.name + "</h1>" +
+                "<img src=' " + item.flag + "  '>" +
                 "<h2> <span>Capital:</span>" + item.capital + "</h2>" +
                 "<p class='alt_spelings'> <span> Alt spellings: </span>" + item.altSpellings + "</p>" + 
                 "<p class='region'> <span>Region:</span> " + item.region + "</p>" +
